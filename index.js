@@ -39,6 +39,16 @@ const questions = () => {
         return val.toUpperCase();
       },
     },
+    {
+      type: "input",
+      name: "tests",
+      message: "Please inform instructions for testing:",
+    },
+    {
+      type: "input",
+      name: "username",
+      message: "Please inform your GitHub username:",
+    },
   ]);
 };
 
@@ -51,7 +61,7 @@ const init = () => {
   questions()
     // Use writeFileSync method to use promises instead of a callback function
     .then((answers) =>
-      writeToFile("README.md", genMarkdown.generateMarkdown(answers))
+      writeToFile("sampleREADME.md", genMarkdown.generateMarkdown(answers))
     )
     .catch((err) => console.error(err));
 };
