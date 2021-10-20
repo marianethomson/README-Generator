@@ -46,6 +46,11 @@ const questions = () => {
     },
     {
       type: "input",
+      name: "email",
+      message: "Please inform your email:",
+    },
+    {
+      type: "input",
       name: "username",
       message: "Please inform your GitHub username:",
     },
