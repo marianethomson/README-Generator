@@ -34,7 +34,7 @@ const questions = () => {
       type: "list",
       name: "license",
       message: "What the license you want to apply?",
-      choices: ["MIT", "ISC", "GNU"],
+      choices: ["MIT", "ISC", "GNU", "Mozilla", "Eclipse", "Apache"],
       filter(val) {
         return val.toUpperCase();
       },
