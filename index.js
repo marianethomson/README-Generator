@@ -66,7 +66,7 @@ function writeToFile(filename, data) {
   return fs.writeFileSync(filename, data);
 }
 
-// TODO: Create a function to initialize app
+// TODO: improve error and promise
 const init = () => {
   questions()
     // Use writeFileSync method to use promises instead of a callback function
