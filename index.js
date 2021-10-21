@@ -71,7 +71,7 @@ const init = () => {
   questions()
     // Use writeFileSync method to use promises instead of a callback function
     .then((answers) =>
-      writeToFile("sampleREADME.md", genMarkdown.generateMarkdown(answers))
+      writeToFile("./ReadMe/README.md", genMarkdown.generateMarkdown(answers))
     )
     .catch((err) => console.error(err));
 };

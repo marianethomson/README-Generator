@@ -2,4 +2,4 @@
 
 A video with a demo of the application is available at:
 
-[![License: ICL](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![Demo Video](https://youtu.be/_rxH9BVD9M4)](https://youtu.be/_rxH9BVD9M4)
